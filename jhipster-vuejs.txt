@@ -1,0 +1,9 @@
+npm install -g generator-jhipster-vuejs
+git clone https://github.com/jhipster/jhipster-vuejs.git
+cd jhipster-vuejs
+npm link
+cd generator
+npm link
+jhipster -d --blueprint vuejs
+
+jhipster --blueprint vuejs
